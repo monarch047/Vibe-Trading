@@ -1,5 +1,14 @@
 [
   {
+    "name": "custom",
+    "label": "Custom Provider",
+    "api_key_env": "CUSTOM_API_KEY",
+    "base_url_env": "CUSTOM_BASE_URL",
+    "default_model": "custom-model",
+    "default_base_url": "https://api.example.com/v1",
+    "api_key_required": true
+  },
+  {
     "name": "openrouter",
     "label": "OpenRouter",
     "api_key_env": "OPENROUTER_API_KEY",

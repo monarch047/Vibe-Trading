@@ -144,6 +144,7 @@ _COPILOT_CAPABILITIES = ProviderCapabilities(
 
 
 _PROVIDERS: dict[str, ProviderCapabilities] = {
+    "custom": ProviderCapabilities("custom", "CUSTOM_API_KEY", "CUSTOM_BASE_URL"),
     # ``gpt-5.6-*`` reject function tools on /v1/chat/completions unless the
     # request carries an explicit ``reasoning_effort`` — including the literal
     # "none" — so this one is required, not merely accepted. Still gated on the
